@@ -1,11 +1,11 @@
-import React from "react";
-import "./style.css";
-
-export default function App() {
+import React from 'react';
+import { StyleReset } from 'atomize';
+import App from './src/App';
+export default function Main() {
   return (
-    <div>
-      <h1>@RonBercume</h1>
-      <p>Start editing to see some magic happen :)</p>
-    </div>
+    <>
+      <StyleReset />
+      <App />
+    </>
   );
 }
