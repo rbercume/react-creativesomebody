@@ -3,12 +3,16 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "add": "^2.0.6",
     "atomize": "^1.0.26",
+    "fusion-core": "2.2.3",
+    "fusion-plugin-styletron-react": "^3.2.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-transition-group": "^4.4.1",
     "styletron-engine-atomic": "^1.4.0",
-    "styletron-react": "^5.2.0"
+    "styletron-react": "^5.2.7",
+    "yarn": "^1.22.10"
   },
   "scripts": {
     "start": "react-scripts start",
